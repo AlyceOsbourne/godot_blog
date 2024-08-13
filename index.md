@@ -29,8 +29,6 @@ Coding is more than just writing lines of code; it’s about creating something 
 Are you ready to embrace the extraordinary and make your mark in the world of code? Step into my world, and let’s begin this adventure together.
 
 ## Posts
-| File                                                    |
-| ------------------------------------------------------- |
-| [Self Binding Components](Self%20Binding%20Components.md.md) |
+- [Self Binding Components](./Self%20Binding%20Components.md)
 
 
