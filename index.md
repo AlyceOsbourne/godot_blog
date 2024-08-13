@@ -1,5 +1,6 @@
 ---
 share: true
+links: false
 ---
 
 ## Welcome to MissCthulianCoder's Lair
