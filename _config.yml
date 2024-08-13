@@ -1,2 +1,4 @@
-theme: jekyll-theme-minima
+plugins:
+- jekyll-remote-theme
+remote_theme: cotes2020/jekyll-theme-chirpy@v7.0.1
 title: [CthuluCodesGames]
