@@ -1,7 +1,3 @@
----
-share: true
----
-
 Hello, fellow coders! I’m MissCthulianCoder, a passionate developer with a love for the intricate arts of coding, design patterns, and systems architecture. Over the years, I’ve explored the depths of software design, discovering the little secrets that can transform code from ordinary to extraordinary. Now, I’m excited to share that journey with you.
 
 ## Forge Your Own Path in the World of Software Development
