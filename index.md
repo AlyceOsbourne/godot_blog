@@ -34,4 +34,3 @@ Are you ready to embrace the extraordinary and make your mark in the world of co
 <li dir="auto"><a data-tooltip-position="top" aria-label="Self Binding Components" data-href="Self Binding Components" href="Self Binding Components" class="internal-link" target="_blank" rel="noopener">Self Binding Components</a></li>
 <li dir="auto"><a data-tooltip-position="top" aria-label="Magical Metadata" data-href="Magical Metadata" href="Magical Metadata" class="internal-link" target="_blank" rel="noopener">Magical Metadata</a></li>
 </ul></span></p>
-
