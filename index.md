@@ -29,8 +29,5 @@ Coding is more than just writing lines of code; it’s about creating something 
 Are you ready to embrace the extraordinary and make your mark in the world of code? Step into my world, and let’s begin this adventure together.
 
 ## Posts
-| File                                                    |
-| ------------------------------------------------------- |
-| [[./Self Binding Components\|Self Binding Components]] |
 
-
+<span><ul class="dataview dataview-ul dataview-result-list-root-ul"><li class="dataview-result-list-li"><span><p dir="auto"><a data-tooltip-position="top" aria-label="Self Binding Components" data-href="Self Binding Components" href="Self Binding Components" class="internal-link" target="_blank" rel="noopener">Self Binding Components</a></p></span></li></ul></span>
