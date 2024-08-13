@@ -18,7 +18,7 @@ Once you click the button, a dialogue will pop up, asking you to name your metad
 
 ![[./Assets/Pasted image 20240813174353.png|Pasted image 20240813174353]]
 
-You’ll find all the usual data types here, just like those available in an exported dictionary. This feature is particularly handy for quickly checking what metadata is available and setting it up manually. Bu you’ll want to harness the full power of metadata by manipulating it through code. That’s where the real magic happens!
+You’ll find all the usual data types here, just like those available in an exported dictionary. This feature is particularly handy for quickly checking what metadata is available and setting it up manually. But you’ll want to harness the full power of metadata by manipulating it through code. That’s where the real magic happens!
 
 ## Accessing Metadata in Code
 
