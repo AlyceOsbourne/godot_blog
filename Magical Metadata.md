@@ -2,7 +2,7 @@
 share: true
 ---
 
-In my last post about [Self Binding Components](./Self%20Binding%20Components.md), I explored the idea of using metadata to store variables linked to your components. This approach allows other components to access the data they need without rummaging through child nodes. Today, I’m excited to delve deeper and show you some different ways to use and access metadata in Godot.
+In my last post about [Self Binding Components](Self Binding Components), I explored the idea of using metadata to store variables linked to your components. This approach allows other components to access the data they need without rummaging through child nodes. Today, I’m excited to delve deeper and show you some different ways to use and access metadata in Godot.
 
 ## What Is Metadata?
 
