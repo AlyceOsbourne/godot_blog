@@ -12,11 +12,11 @@ In Godot, any object that extends from `RefCounted` comes with its own metadata.
 
 You can easily manage metadata in the Inspector, which is perfect if you prefer a visual approach. Simply select an object and look for the `Add Metadata` button at the bottom of the panel.
 
-![[Pasted image 20240813174135.png | Image of metadata button in inspector]]
+![[./Assets/Pasted image 20240813174135.png|Pasted image 20240813174135]]
 
 Once you click the button, a dialogue will pop up, asking you to name your metadata and choose a type.
 
-![[Pasted image 20240813174353.png | Image of adding metadata, showing the name and types]]
+![[./Assets/Pasted image 20240813174353.png|Pasted image 20240813174353]]
 
 You’ll find all the usual data types here, just like those available in an exported dictionary. This feature is particularly handy for quickly checking what metadata is available and setting it up manually. Bu you’ll want to harness the full power of metadata by manipulating it through code. That’s where the real magic happens!
 
