@@ -230,6 +230,9 @@ func mod_health(amount):
 
 Now, it's as simple as calling `emit_signal("modify_health", -1)` on the target from anywhere in your code to activate the behaviour.
 
+> Note
+> To avoid errors, you should check to see if the signal exists when using this pattern, using `node.has_signal("modify_health")`.
+
 ### Final Thoughts
 
 In this post, we've explored an alternative approach to applying the principle of composition over inheritance in Godot. By inverting the relationship between components and their parent nodes, we can achieve greater flexibility and decoupling in our code. Instead of relying on the parent to manage its components directly, we allow components to manage themselves, exposing their behaviour by leveraging Godot's signal system.
