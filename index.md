@@ -30,4 +30,6 @@ Are you ready to embrace the extraordinary and make your mark in the world of co
 
 ## Posts
 
-<div><ul class="dataview list-view-ul"><li><span></span></li></ul></div>
+<p><span><ul>
+<li dir="auto"><a data-tooltip-position="top" aria-label="Self Binding Components" data-href="Self Binding Components" href="Self Binding Components" class="internal-link" target="_blank" rel="noopener">Self Binding Components</a></li>
+</ul></span></p>
