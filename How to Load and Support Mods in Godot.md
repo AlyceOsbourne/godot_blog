@@ -18,13 +18,19 @@ static var root: Node:
 
 static func load_mods(mods_folder: String = "user://mods", mod_file_name: String = "mod.gd"):
     var mods = (
-        (DirAccess.get_directories_at(mods_folder) as Array) # get the folders in the mods folder
-        .map(func(mod_folder): return "%s/%s/%s" % [mods_folder, mod_folder, mod_file_name]) # get the path to the `mod.gd` file
-        .filter(func(mod_file): return FileAccess.file_exists(mod_file)) # make sure the mod file exists
-        .map(load) # load the resource
-        .map(func(x): return x.new(root)) # Instantiate with a reference to the root
+	    # get the folders in the mods folder
+        (DirAccess.get_directories_at(mods_folder) as Array) 
+         # get the path to the `mod.gd` file
+        .map(func(mod_folder): return "%s/%s/%s" % [mods_folder, mod_folder, mod_file_name])
+         # make sure the mod file exists
+        .filter(func(mod_file): return FileAccess.file_exists(mod_file))
+         # load the resource
+        .map(load)
+        # Instantiate with a reference to the root
+        .map(func(x): return x.new(root)) 
     )
-    mods.sort_custom(  # we sort the mods based on their dependencies, to ensure the correct load order
+    # we sort the mods based on their dependencies, to ensure the correct load order
+    mods.sort_custom(
         sort_mods
     )
     for mod: Plugin in mods:
@@ -33,8 +39,9 @@ static func load_mods(mods_folder: String = "user://mods", mod_file_name: String
         mod.folder = m[0] + "/" # set the folder name
         mod.owner = root # set the owner to be root
         mod.add_to_group("mods") # add to the mods group
+		# and finally add to the root as a internal node
         root.add_child.call_deferred(mod, true, Node.InternalMode.INTERNAL_MODE_FRONT) 
-        # and finally add to the root as a internal node
+
 
 static func unload_mods():
     # free all of the mod nodes in the mods group
