@@ -33,7 +33,8 @@ static func load_mods(mods_folder: String = "user://mods", mod_file_name: String
         mod.folder = m[0] + "/" # set the folder name
         mod.owner = root # set the owner to be root
         mod.add_to_group("mods") # add to the mods group
-        root.add_child.call_deferred(mod, true, Node.InternalMode.INTERNAL_MODE_FRONT) # and finally add to the root as a internal node
+        root.add_child.call_deferred(mod, true, Node.InternalMode.INTERNAL_MODE_FRONT) 
+        # and finally add to the root as a internal node
 
 static func unload_mods():
     # free all of the mod nodes in the mods group
