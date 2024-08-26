@@ -119,9 +119,9 @@ This `Plugin` class is key for managing each mod’s lifecycle:
 To truly support modding in your game, a little foresight goes a long way. Here are some key strategies:
 
 - **Registries**: Create registries for game objects that mods can easily add to. This allows mods to introduce new items, enemies, or other elements without directly modifying the base game code.
-- **Signals and Groups**: Use signals for events and assign nodes to groups. This allows mods to easily interact with your game’s systems, such as adding custom behaviors when specific events occur.
+- **Signals and Groups**: Use signals for events and assign nodes to groups. This allows mods to easily interact with your game’s systems, such as adding custom behaviours when specific events occur.
 - **Method Overloading**: Allow mods to overload methods by separating the logic of various classes and methods. This makes your codebase more flexible and allows mods to replace or extend functionality as needed.
-- **Composition Over Inheritance**: Favor composition to improve the modularity of your code. This makes it easier for mods to mix and match components, replacing or enhancing parts of your game without breaking existing functionality.
+- **Composition Over Inheritance**: Favour composition to improve the modularity of your code. This makes it easier for mods to mix and match components, replacing or enhancing parts of your game without breaking existing functionality.
 
 ## How Can Mods Modify Your Game?
 
