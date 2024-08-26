@@ -6,3 +6,5 @@ plugins:
 theme_mode: dark
 title: [CthuluCodesGames]
 iconURL: cthulu.png
+social:
+  github: AlyceOsbourne
