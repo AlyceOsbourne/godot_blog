@@ -5,3 +5,4 @@ plugins:
   - jekyll-relative-links
 theme_mode: dark
 title: [CthuluCodesGames]
+iconURL: cthulu.png
