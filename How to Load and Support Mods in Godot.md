@@ -18,25 +18,29 @@ static var root: Node:
 
 static func load_mods(mods_folder: String = "user://mods", mod_file_name: String = "mod.gd"):
     var mods = (
-        (DirAccess.get_directories_at(mods_folder) as Array)
-        .map(func(mod_folder): return "%s/%s/%s" % [mods_folder, mod_folder, mod_file_name])
-        .filter(func(mod_file): return FileAccess.file_exists(mod_file))
-        .map(load)
-        .map(func(x): return x.new(root))
+        (DirAccess.get_directories_at(mods_folder) as Array) # get the folders in the mods folder
+        .map(func(mod_folder): return "%s/%s/%s" % [mods_folder, mod_folder, mod_file_name]) # get the path to the `mod.gd` file
+        .filter(func(mod_file): return FileAccess.file_exists(mod_file)) # make sure the mod file exists
+        .map(load) # load the resource
+        .map(func(x): return x.new(root)) # Instantiate with a reference to the root
     )
-    mods.sort_custom(sort_mods)
+    mods.sort_custom(  # we sort the mods based on their dependencies, to ensure the correct load order
+        sort_mods
+    )
     for mod: Plugin in mods:
-        var m = (mod.get_script().resource_path as String).rsplit("/", true, 1)
-        mod.name = m[0].rsplit("/", true, 1)[1]
-        mod.folder = m[0] + "/"
-        mod.owner = root
-        mod.add_to_group("mods")
-        root.add_child.call_deferred(mod, true, Node.InternalMode.INTERNAL_MODE_FRONT)
-        
+        var m = (mod.get_script().resource_path as String).rsplit("/", true, 1) # get the mods name
+        mod.name = m[0].rsplit("/", true, 1)[1] # Set the node name
+        mod.folder = m[0] + "/" # set the folder name
+        mod.owner = root # set the owner to be root
+        mod.add_to_group("mods") # add to the mods group
+        root.add_child.call_deferred(mod, true, Node.InternalMode.INTERNAL_MODE_FRONT) # and finally add to the root as a internal node
+
 static func unload_mods():
+    # free all of the mod nodes in the mods group
     Engine.get_main_loop().call_group("mods", "queue_free")
 
 static func sort_mods(x, y) -> int:
+    # Sorts mods based on their dependencies, does very basic detection of circular dependencies
     var x_requires = x.get("REQUIRES") if "REQUIRES" in x else []
     var y_requires = y.get("REQUIRES") if "REQUIRES" in y else []
 
@@ -49,6 +53,7 @@ static func sort_mods(x, y) -> int:
         return -1
 
     return 0
+
 ```
 
 This code might look a little dense at first glance, but let’s break it down:
