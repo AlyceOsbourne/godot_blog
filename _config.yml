@@ -3,4 +3,5 @@ plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
   - jekyll-relative-links
+theme_mode: dark
 title: [CthuluCodesGames]
