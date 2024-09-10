@@ -42,7 +42,7 @@ Iteration is all about making small improvements, testing them, and then refinin
 
 In Godot, this could mean creating small, self-contained prototypes of a feature before fully integrating it into your game. By keeping things modular and testing as you go, you reduce the risk of letting fragile code slip into your main project. And if you find that a prototype isn’t working out, it’s much easier to toss it and start fresh without feeling like you’ve wasted time.
 
-##
+## "Hands Off" Code: Why Avoidance Isn’t the Answer
 
 Now, let’s talk about a common mindset that can lead to the propagation of technical debt: the dreaded “I don’t want to touch that again.” This phrase is often born out of frustration after wrestling with a particularly stubborn piece of code. The temptation is to leave it as is, hoping it will hold together long enough to avoid further scrutiny.
 
