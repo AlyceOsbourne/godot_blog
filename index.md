@@ -46,4 +46,6 @@ Are you ready to embrace the extraordinary and make your mark in the world of co
 <li dir="auto"><a data-tooltip-position="top" aria-label="Simple over Smart!" data-href="Simple over Smart!" href="Simple over Smart!" class="internal-link" target="_blank" rel="noopener">Simple over Smart!</a></li>
 <li dir="auto"><a data-tooltip-position="top" aria-label="Understanding Resources in Godot - What They Are, Why They Matter, and How to Use Them Effectively" data-href="Understanding Resources in Godot - What They Are, Why They Matter, and How to Use Them Effectively" href="Understanding Resources in Godot - What They Are, Why They Matter, and How to Use Them Effectively" class="internal-link" target="_blank" rel="noopener">Understanding Resources in Godot - What They Are, Why They Matter, and How to Use Them Effectively</a></li>
 <li dir="auto"><a data-tooltip-position="top" aria-label="Help Me Help You!!!" data-href="Help Me Help You!!!" href="Help Me Help You!!!" class="internal-link" target="_blank" rel="noopener">Help Me Help You!!!</a></li>
+<li dir="auto"><a data-tooltip-position="top" aria-label="Imposter! The Cringe Chronicles!" data-href="Imposter! The Cringe Chronicles!" href="Imposter! The Cringe Chronicles!" class="internal-link" target="_blank" rel="noopener">Imposter! The Cringe Chronicles!</a></li>
 </ul></span></p>
+
