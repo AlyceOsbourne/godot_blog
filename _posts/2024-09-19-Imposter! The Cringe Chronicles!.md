@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Let’s talk about imposter syndrome, shall we? That persistent, nagging voice that tells you, "You're not good enough," or "Everyone else is miles ahead while you’re stumbling in the dark." Sound familiar? Whether you’ve been coding for years or just started yesterday, imposter syndrome is like an annoying bug in the back of your mind. But here’s the thing—comparing yourself to others isn’t just unhelpful, it’s downright absurd. It’s like comparing a cup of tea to a jet engine. Sure, they both exist, but they were never meant to be in the same category.
