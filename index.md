@@ -48,5 +48,5 @@ Are you ready to embrace the extraordinary and make your mark in the world of co
 <li dir="auto"><a data-tooltip-position="top" aria-label="Ready, Get Set, GO!" data-href="Ready, Get Set, GO!" href="Ready, Get Set, GO!" class="internal-link" target="_blank" rel="noopener">Ready, Get Set, GO!</a></li>
 <li dir="auto"><a data-tooltip-position="top" aria-label="Self Binding Components" data-href="Self Binding Components" href="Self Binding Components" class="internal-link" target="_blank" rel="noopener">Self Binding Components</a></li>
 <li dir="auto"><a data-tooltip-position="top" aria-label="Simple over Smart!" data-href="Simple over Smart!" href="Simple over Smart!" class="internal-link" target="_blank" rel="noopener">Simple over Smart!</a></li>
+<li dir="auto"><a data-tooltip-position="top" aria-label="Autoloading Scenes in Godot 4" data-href="Autoloading Scenes in Godot 4" href="Autoloading Scenes in Godot 4" class="internal-link" target="_blank" rel="noopener">Autoloading Scenes in Godot 4</a></li>
 </ul></span></p>
-
