@@ -33,13 +33,3 @@ Are you ready to embrace the extraordinary and make your mark in the world of co
 ## L̷̨̨̥̼̙̟͙͔̭͚̪̂ẻ̷̛̳̣͚͖̣̫͚̒͛̊̈́̄͌̃̎̈́̏͝ͅt̷̮̫͇̣̊̊̋͂'̶̨̼̼̮̣͈̭̦͓̩̖͝s̷̨̛̙̪͎͖̝̼͖͍͉̩̫͉͊͒̈́̄̄̏͌͑͐͘ ̴̨͚̹̬̯͕̬̫̏̈́̚ͅC̶̨͖̣̩̮͂͋̇̐̐̀̈́͘͝͠ơ̶̤̭̻̩̭̳̐̋ͅḓ̶̢̯̩͈̼̦̺͙̼̭̣̀̅̋̀͝͠e̶̡̪̦̝̻̭͖͖͖̖̤̫̝̓̂́̚͘
 
 <br>
-
-### Posts
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
