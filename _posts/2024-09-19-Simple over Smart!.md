@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 There’s a saying I like to keep in mind whenever I’m deep in the trenches of game development: “Simple over smart, until the simple solution becomes a problem.” It’s become somewhat of a guiding principle for me, especially when working in Godot 4, a tool that offers endless possibilities and temptations to get fancy with your code. But here’s the truth—more often than not, the simplest solution is the right one.
