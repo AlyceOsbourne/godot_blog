@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Getters and setters in Godot often don't get the spotlight they deserve. These subtle but powerful tools do much more than just manage variable access; they help keep your game's state under control and running smoothly.
