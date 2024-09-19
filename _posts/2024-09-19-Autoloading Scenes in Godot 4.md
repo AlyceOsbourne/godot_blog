@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 ## **Autoloaded Scenes to the Rescue: A Modular Approach to Godot's Global Systems**
