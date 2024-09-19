@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 You've likely heard the phrase "composition is better than inheritance," but how do you apply this principle effectively in Godot? More importantly, how do you implement it without creating a tangled web of dependencies, often referred to as spaghetti code?
