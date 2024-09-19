@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Starting your journey with Godot is such a fun and thrilling experience, but let’s face it—it can also feel a bit overwhelming at times. Trust me, we’ve all been there! One of the best skills you can hone early on is knowing how to ask for help in a way that actually gets you the answers you need. Whether you're diving into Discord or posting on forums, well-asked questions can turn a frustrating roadblock into a rewarding learning experience. Good questions get good answers, while vague ones... not so much.

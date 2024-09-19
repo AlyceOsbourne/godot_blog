@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Today, I was scrolling through YouTube when a video about a type of Recurrent Neural Network called Boltzmann Machines (BM) caught my eye. They're a relatively simple kind of neural network often used for recommendations, like what video to watch next or what product to buy based on your preferences. As I listened to the explanation of how they work, I realized it sounded a lot like something I’d been tinkering with recently: Utility AI!

@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Alright, let’s talk MVPs, but no, I don’t mean that super cool developer on your team (though you should totally appreciate them too). I’m talking about minimal viable products, that simple-yet-magical first version of a project that makes your ideas go from “What if?” to “Oh, that actually works!”
