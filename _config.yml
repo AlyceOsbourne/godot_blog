@@ -4,7 +4,6 @@ plugins:
   - jekyll-default-layout
   - jekyll-relative-links
   - jekyll-feed
-url: https://alyceosbourne.github.io/godot_blog/
 theme_mode: dark
 title: [CthuluCodesGames]
 iconURL: cthulu.png
