@@ -4,6 +4,8 @@ plugins:
   - jekyll-default-layout
   - jekyll-relative-links
   - jekyll-feed
+baseurl: ""
+url: "https://alyceosbourne.github.io"
 theme_mode: dark
 title: [CthuluCodesGames]
 iconURL: cthulu.png
