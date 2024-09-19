@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Resources in Godot are an incredibly useful feature that can simplify your project’s data management. However, they can seem a bit mysterious at first. This guide will clarify what Resources are, why they’re important, and how you can use them effectively. I’ll also share a handy technique for loading Resources from a CSV file, which can make managing large amounts of data much easier.
