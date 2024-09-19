@@ -1,5 +1,6 @@
 ---
 share: true
+layout: post
 ---
 
 Many of the best games have soared in popularity thanks to their extensive mod support. Players love being able to add their personal touch to a game’s world, whether that means introducing quality-of-life features or completely overhauling the gameplay. Today, we’re going to dive into how you can load mods into your games using Godot and, more importantly, how you can support modding from the ground up as you code.
