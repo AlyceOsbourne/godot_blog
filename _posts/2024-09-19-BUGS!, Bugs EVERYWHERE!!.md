@@ -8,7 +8,7 @@ Bugs aren’t just a minor annoyance—they can derail everything. Godot, like a
 Let’s dive into some essential debugging techniques in Godot that will help you tame those bugs and keep your sanity intact.
 
 ## **1. Breakpoints: Your Debugging Sidekick**
-Breakpoints are like the superhero of debugging tools in Godot. They let you hit the pause button on your game at a specific line of code, so you can take a closer look at what’s going on behind the scenes.
+Breakpoints are a mainstay of debugging tools in Godot. They let you hit the pause button on your game at a specific line of code, so you can take a closer look at what’s going on behind the scenes.
 
 **How to Set Them Up in Godot:**
 - Open the script where you suspect something fishy is happening.
