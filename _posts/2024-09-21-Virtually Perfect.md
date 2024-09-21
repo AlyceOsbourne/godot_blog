@@ -1,6 +1,7 @@
 ---
 share: true
 layout: post
+links: false
 ---
 
 In my last post I mentioned how virtual methods could be used to simplify a save system, well, I wanted to further demonstrate the power of virtual method, and how they can be used to create a quick debug screen, much like what you find in games like Minecraft.
