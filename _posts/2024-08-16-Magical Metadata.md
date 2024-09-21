@@ -2,6 +2,8 @@
 share: true
 layout: post
 links: true
+date created: Tuesday, August 13th 2024, 3:40:29 pm
+date modified: Saturday, September 21st 2024, 9:23:31 pm
 ---
 
 In my last post about [Self Binding Components](Self Binding Components), I explored the idea of using metadata to store variables linked to your components. This approach allows other components to access the data they need without rummaging through child nodes. Today, I’m excited to delve deeper and show you some different ways to use and access metadata in Godot.
@@ -14,11 +16,11 @@ In Godot, any object that extends from `RefCounted` comes with its own metadata.
 
 You can easily manage metadata in the Inspector, which is perfect if you prefer a visual approach. Simply select an object and look for the `Add Metadata` button at the bottom of the panel.
 
-![Pasted image 20240813174135](../Assets/Pasted%20image%2020240813174135.png)
+![/Assets/Pasted image 20240813174135.png](../Assets/Pasted%20image%2020240813174135.png)
 
 Once you click the button, a dialogue will pop up, asking you to name your metadata and choose a type.
 
-![Pasted image 20240813174353](../Assets/Pasted%20image%2020240813174353.png)
+![/Assets/Pasted image 20240813174353.png](../Assets/Pasted%20image%2020240813174353.png)
 
 You’ll find all the usual data types here, just like those available in an exported dictionary. This feature is particularly handy for quickly checking what metadata is available and setting it up manually. But you’ll want to harness the full power of metadata by manipulating it through code. That’s where the real magic happens!
 
@@ -47,7 +49,7 @@ The shorthand syntax is a fantastic way to keep your code tidy and easy on the e
 Now, you might be wondering why you’d want to use metadata in the first place. Here are a few reasons that might convince you:
 
 - **Avoids unnecessary class attributes**: Metadata lets you store values without cluttering your classes with additional attributes. This keeps your codebase cleaner and more manageable.
-  
+
 - **Inspector readability**: Like exported variables, metadata is visible in the Inspector. This makes it easy to see and modify your object’s state directly in the editor.
 
 - **Simple interface with error handling**: The methods for accessing and manipulating metadata are straightforward, and built-in safeguards like default values help you avoid common errors.
@@ -67,4 +69,5 @@ I tend to think of un-exported variables as private, used internally within a sc
 In contrast, I view metadata as being tied to the state of the object—especially when the object’s state needs to be accessible or shared without being tightly coupled to a specific script. Metadata is available regardless of whether the object has a bound script, making it an excellent choice for storing values that represent the object’s current state. Think of it as a blackboard where you can jot down important details like health, inventory contents, dialogue choices, and so on. This can be particularly useful in complex projects where various components need to interact with an object’s state without directly modifying its variables.
 
 ## Final Thoughts
+
 The decision to use metadata or variables should ultimately be guided by the needs of your project. Metadata offers a flexible and accessible way to manage state, especially when you want to avoid over-complicating your scripts. Variables, on the other hand, are ideal for defining an object’s behaviour and configuration. By understanding the strengths of each, you can make more informed choices that lead to cleaner, more maintainable code.
