@@ -4,6 +4,8 @@ plugins:
   - jekyll-default-layout
   - jekyll-relative-links
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 theme_mode: dark
 title: [CthuluCodesGames]
 iconURL: cthulu.png
