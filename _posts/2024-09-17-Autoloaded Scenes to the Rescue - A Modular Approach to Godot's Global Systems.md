@@ -1,19 +1,25 @@
 ---
 share: true
 layout: post
+dg-publish: true
+date created: Tuesday, August 13th 2024, 4:55:18 am
+date modified: Thursday, September 26th 2024, 5:19:57 pm
 ---
 
 During game development, especially in a growing project, it's common to need globally accessible objects. Whether you're persisting data between scenes, handling configuration settings, or managing signals across the game, this need arises often. In Godot, this is achieved through **autoloaded singletons**—those always available, globally accessible nodes or scripts. However, as your project expands, managing numerous autoloads can become a hassle.
 
 ## **The Problem with Script Autoloads**
+
 Autoloading scripts work well for small projects, but as the game scales, managing multiple global scripts can lead to bloated, hard-to-manage autoload lists. Often, developers end up with a dozen or more autoloaded scripts, each handling a single responsibility, cluttering up the project and making it difficult to track what's happening globally at any given time. A large number of autoload scripts can lead to overlapping logic, difficulty debugging, and potential state management issues.
 
 ## **Autoloaded Scenes to the Rescue**
+
 Just like scripts, **scenes can also be autoloaded**, and unlike scripts, they can have child nodes. This means you can separate your logic into multiple manageable parts within a single scene, which supports **composition**. Instead of managing numerous autoloaded scripts, you can have **one autoloaded scene** that contains multiple child nodes, each responsible for different aspects of global game functionality—be it saving progress, managing sounds, or handling player data.
 
 Using scenes allows for a **modular structure**. By breaking down your systems into individual nodes within a single autoloaded scene, you not only keep the autoload list short, but you also make the system more manageable and maintainable.
 
 ## **Why Use a Scene and Not a Script?**
+
 The core difference between autoloading a script and autoloading a scene is that **scenes allow for hierarchy and children**. This makes it much easier to group related functionality together and ensure that they interact correctly. Rather than needing to autoload a dozen separate scripts, you can autoload a single scene that contains nodes for:
 
 - **Signal Bus:** To manage and centralize signals.
@@ -47,6 +53,5 @@ For example, imagine you're building a game where you need to keep track of play
 ## **Best Practices**
 - **Keep It Focused:** Only include global functionality that needs to persist across scenes. Don’t overload your autoloaded scene with too many child nodes, or you risk recreating the original problem of complexity.
 - **Separate Logic Appropriately:** For larger systems, consider breaking your autoloaded scene into multiple sub-scenes. For example, you might have separate autoloaded scenes for game-specific systems (like player state or inventory) and engine-wide systems (like input management or sound).
-  
-By adopting this autoloaded scene structure, you're able to keep your project organized and modular, simplifying the maintenance and debugging process as the game’s scope expands.
 
+By adopting this autoloaded scene structure, you're able to keep your project organized and modular, simplifying the maintenance and debugging process as the game’s scope expands.
