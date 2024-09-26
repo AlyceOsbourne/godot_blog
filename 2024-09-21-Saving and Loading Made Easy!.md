@@ -1,6 +1,8 @@
 ---
 share: true
 layout: post
+date created: Saturday, September 21st 2024, 1:24:39 pm
+date modified: Thursday, September 26th 2024, 4:18:43 pm
 ---
 
 When it comes to saving data in Godot, there are many opinions on the best ways to handle save data. Some developers swear by autoloads, others lean on signals, and even Godot’s official documentation offers its own ideas. In this guide, I’ll introduce a flexible method that ensures each object takes responsibility for its own data. This modular approach keeps your project organized and easy to maintain as it grows.
@@ -201,8 +203,8 @@ As you can see, this approach is almost identical to the groups method, sans `_r
 - **Encapsulation**: Nodes manage their own data, reducing errors from a shared global state.
 - **Flexibility**: Nodes can use different serialization methods or formats, allowing for tailored solutions.
 
-With this approach, you get a highly modular, flexible save system that adapts as your game evolves. 
+With this approach, you get a highly modular, flexible save system that adapts as your game evolves.
 
 ## Wrapping up
-There is no one right way to approach how you manage save data, with each technique having its own place. What is right for you will depend on the structure and style of your project, I hope that by showing you various methods you find a way that works with your own machinations. 
 
+There is no one right way to approach how you manage save data, with each technique having its own place. What is right for you will depend on the structure and style of your project, I hope that by showing you various methods you find a way that works with your own machinations.
