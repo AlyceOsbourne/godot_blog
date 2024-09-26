@@ -1,6 +1,9 @@
 ---
 share: true
 layout: post
+date created: Monday, August 26th 2024, 7:15:08 pm
+date modified: Thursday, September 26th 2024, 5:19:36 pm
+dg-publish: true
 ---
 
 Many of the best games have soared in popularity thanks to their extensive mod support. Players love being able to add their personal touch to a game’s world, whether that means introducing quality-of-life features or completely overhauling the gameplay. Today, we’re going to dive into how you can load mods into your games using Godot and, more importantly, how you can support modding from the ground up as you code.
@@ -149,4 +152,3 @@ While nearly every game can be modded to some degree, you should weigh the effor
 ## Final Thoughts
 
 Supporting mods in your game can be a powerful way to engage your community and extend the life of your project. Godot’s flexible and open-ended design makes it relatively easy to implement modding support, allowing players to leave their own mark on your game world. Whether you’re creating a sandbox game or a more linear experience, consider the potential impact of modding and how it could enhance—or detract from—your vision. Ultimately, modding should be a feature that complements your game, not one that overshadows its core experience.
-
