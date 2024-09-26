@@ -1,6 +1,9 @@
 ---
 share: true
 layout: post
+dg-publish: true
+date created: Wednesday, September 18th 2024, 8:49:21 pm
+date modified: Thursday, September 26th 2024, 5:20:00 pm
 ---
 
 Getters and setters in Godot often don't get the spotlight they deserve. These subtle but powerful tools do much more than just manage variable access; they help keep your game's state under control and running smoothly.

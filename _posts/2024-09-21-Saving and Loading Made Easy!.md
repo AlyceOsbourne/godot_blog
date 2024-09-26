@@ -2,7 +2,8 @@
 share: true
 layout: post
 date created: Saturday, September 21st 2024, 1:24:39 pm
-date modified: Thursday, September 26th 2024, 4:18:43 pm
+date modified: Thursday, September 26th 2024, 5:20:05 pm
+dg-publish: true
 ---
 
 When it comes to saving data in Godot, there are many opinions on the best ways to handle save data. Some developers swear by autoloads, others lean on signals, and even Godot’s official documentation offers its own ideas. In this guide, I’ll introduce a flexible method that ensures each object takes responsibility for its own data. This modular approach keeps your project organized and easy to maintain as it grows.

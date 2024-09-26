@@ -3,7 +3,8 @@ share: true
 layout: post
 links: true
 date created: Saturday, September 21st 2024, 8:16:09 pm
-date modified: Thursday, September 26th 2024, 4:44:34 pm
+date modified: Thursday, September 26th 2024, 5:20:10 pm
+dg-publish: true
 ---
 
 In my last post I mentioned how virtual methods could be used to simplify a save system, well, I wanted to further demonstrate the power of virtual method, and how they can be used to create a quick debug screen, much like what you find in games like Minecraft.
@@ -127,7 +128,7 @@ func _debug(data: Dictionary) -> void:
 
 This method adds the node’s specific debug information to the `data` dictionary. The `DebugScreen` then gathers this data from all nodes and displays it.
 
-![Pasted image 20240921202000](./debug_screen.png)
+![Pasted image 20240921202000](../debug_screen.png)
 
 ## Why Use Virtual Methods?
 
