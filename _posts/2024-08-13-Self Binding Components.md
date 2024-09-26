@@ -1,6 +1,9 @@
 ---
 share: true
 layout: post
+dg-publish: true
+date created: Tuesday, August 13th 2024, 12:03:04 am
+date modified: Thursday, September 26th 2024, 5:19:27 pm
 ---
 
 You've likely heard the phrase "composition is better than inheritance," but how do you apply this principle effectively in Godot? More importantly, how do you implement it without creating a tangled web of dependencies, often referred to as spaghetti code?
@@ -136,6 +139,7 @@ This is wordy, hard to read, and becomes tedious when used multiple times in you
 Initially, yes. However, since we have common patterns here, we can create an abstraction and make strategic use of inheritance to enhance our composition. Let's make a few assumptions about our behaviour:
 
 We likely want:
+
 - A way to create custom signals.
 - A way to bind callables to these signals.
 - A way to add the target to groups.
