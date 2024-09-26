@@ -9,7 +9,7 @@ plugins:
 
 theme_mode: dark
 title: [CthuluCodesGames]
-iconURL: cthulu.png
-url: AlyceOsbourne.github.io
+iconURL: "cthulu.png"
+url: "AlyceOsbourne.github.io/godot_blog/"
 social:
   github: AlyceOsbourne
