@@ -1,6 +1,9 @@
 ---
 share: true
 layout: post
+dg-publish: true
+date created: Tuesday, September 10th 2024, 3:19:36 am
+date modified: Thursday, September 26th 2024, 5:19:43 pm
 ---
 
 There’s a moment in every game developer’s journey when you stare at a chunk of code you’ve been working on for days—maybe even weeks—and a little voice in your head whispers, “This just isn’t working.” But then another, louder voice chimes in, reminding you of all the hours you’ve poured into this code. You’ve tweaked, refactored, and fought through bugs, and it feels like giving up would be a waste. This, my friends, is the Sunk Time Fallacy at work, and it’s a sneaky beast!
@@ -53,8 +56,8 @@ Embrace the idea that no part of your codebase is untouchable. If something’s 
 
 ## The Freedom to Let Go
 
-Ultimately, overcoming the Sunk Time Fallacy is about giving yourself the freedom to let go. It’s about recognizing that your time and energy are valuable, and sometimes the best way to honor that value is by cutting your losses and moving on. 
+Ultimately, overcoming the Sunk Time Fallacy is about giving yourself the freedom to let go. It’s about recognizing that your time and energy are valuable, and sometimes the best way to honor that value is by cutting your losses and moving on.
 
-Godot’s flexibility and ease of use make it a fantastic tool for exploring different ideas, but it also requires a certain level of discipline. You need to be willing to make tough decisions, to delete code that isn’t serving you or your game, and to start over when necessary. 
+Godot’s flexibility and ease of use make it a fantastic tool for exploring different ideas, but it also requires a certain level of discipline. You need to be willing to make tough decisions, to delete code that isn’t serving you or your game, and to start over when necessary.
 
 So, the next time you find yourself holding on to a piece of code because you’ve already invested so much time into it, take a step back and ask yourself: is this really the best path forward? If the answer is no, don’t be afraid to hit that delete key. Your future self—and your game—will thank you for it.
