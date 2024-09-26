@@ -2,10 +2,11 @@ remote_theme: supun-io/jekyll-theme-leaf
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
-  - jekyll-relative-links
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+# - jekyll-relative-links
+
 theme_mode: dark
 title: [CthuluCodesGames]
 iconURL: cthulu.png
