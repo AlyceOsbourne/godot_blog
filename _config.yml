@@ -11,6 +11,5 @@ theme_mode: dark
 title: [CthuluCodesGames]
 iconURL: cthulu.png
 url: AlyceOsbourne.github.io
-baseUrl: /godot_blog
 social:
   github: AlyceOsbourne
