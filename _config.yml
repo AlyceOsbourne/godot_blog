@@ -5,7 +5,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-# - jekyll-relative-links
+  - jekyll-relative-links
 
 theme_mode: dark
 title: [CthuluCodesGames]
