@@ -1,6 +1,8 @@
 ---
 share: true
 layout: post
+date created: Friday, August 23rd 2024, 2:29:45 am
+date modified: Thursday, September 26th 2024, 4:35:56 pm
 ---
 
 Resources in Godot are an incredibly useful feature that can simplify your project’s data management. However, they can seem a bit mysterious at first. This guide will clarify what Resources are, why they’re important, and how you can use them effectively. I’ll also share a handy technique for loading Resources from a CSV file, which can make managing large amounts of data much easier.
@@ -24,6 +26,7 @@ Resources differ from Nodes, which are more about behaviour and scene management
 ### When Should You Use Resources?
 
 You should consider using Resources when you need to:
+
 - When you wish to manipulate the variables in the Inspector.
 - Share data consistently across multiple scenes or nodes.
 - Maintain data that should persist, such as game settings or player progress.
@@ -46,12 +49,13 @@ extends Resource
 @export var agility: int
 ```
 
-With this `CharacterStats` resource, you can easily apply and modify stats across different characters in your project, ensuring consistency without duplicating data. 
+With this `CharacterStats` resource, you can easily apply and modify stats across different characters in your project, ensuring consistency without duplicating data.
 
 ### Saving Resources
 
-Resources can be saved, both in the inspector, and in code, much like how scenes can be saved. 
-This enables you to to reuse them between nodes and scenes. A perfect example of when its desirable to save a resource is when using nodes like the `TileMapLayer`, and wish to reuse the `TileSet` between scenes. 
+Resources can be saved, both in the inspector, and in code, much like how scenes can be saved.
+
+This enables you to to reuse them between nodes and scenes. A perfect example of when its desirable to save a resource is when using nodes like the `TileMapLayer`, and wish to reuse the `TileSet` between scenes.
 
 Saving in code can be done in a few ways. Firstly, you have the `ResourceSaver`, which is a singleton designed to write `Resource` objects to file.
 
@@ -117,7 +121,7 @@ func load_resources():
 
 - **Loading Data**: The `load_resources` function iterates through each type, finds the corresponding CSV file, and loads the data. The CSV file should have the same name as the script file, with each row representing a new instance of the Resource.
 
-- **Creating Instances**: For each row in the CSV, a new instance of the Resource type is created and filled with the data from the CSV columns. This is particularly useful for projects with a lot of data that follows a similar structure. 
+- **Creating Instances**: For each row in the CSV, a new instance of the Resource type is created and filled with the data from the CSV columns. This is particularly useful for projects with a lot of data that follows a similar structure.
 
 ### Example Usage
 
@@ -127,4 +131,4 @@ Imagine you have a `WeaponStats.gd` script that defines attributes like damage, 
 
 ## Final Thoughts
 
-Resources in Godot are a powerful tool for keeping your project organised and efficient. By understanding how and when to use them, you can ensure that your data is consistent and easily accessible across your project. And with tricks like loading Resources from a CSV file, you can streamline your workflow, making it easier to manage large datasets. 
+Resources in Godot are a powerful tool for keeping your project organised and efficient. By understanding how and when to use them, you can ensure that your data is consistent and easily accessible across your project. And with tricks like loading Resources from a CSV file, you can streamline your workflow, making it easier to manage large datasets.
