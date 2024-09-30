@@ -128,7 +128,7 @@ func _debug(data: Dictionary) -> void:
 
 This method adds the node’s specific debug information to the `data` dictionary. The `DebugScreen` then gathers this data from all nodes and displays it.
 
-![debug_screen.png](_posts/assets/debug_screen.png)
+![[./assets/debug_screen.png|debug_screen.png]]
 
 ## Why Use Virtual Methods?
 
