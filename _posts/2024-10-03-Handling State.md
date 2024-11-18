@@ -134,7 +134,7 @@ For even more flexibility and organization, you can use a class-based approach. 
 
 ```gdscript
 # State.gd
-extends Reference
+extends Resource
 class_name State
 
 var owner: Node
