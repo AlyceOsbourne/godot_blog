@@ -24,7 +24,7 @@ The most straightforward way to implement a state machine in Godot is by using a
 ### Implementation
 
 ```gdscript
-extends KinematicBody2D
+extends CharacterBody2D
 
 enum State {
     IDLE,
@@ -88,7 +88,7 @@ var state_functions: Dictionary = {
 }
 
 var current_state: String = "idle"
-var state_function: FuncRef
+var state_function: Callable
 
 func _ready() -> void:
     state_function = state_functions[current_state]
