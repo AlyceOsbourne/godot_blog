@@ -78,7 +78,7 @@ For more complex projects, a delegate-based approach using function references (
 ### Implementation
 
 ```gdscript
-extends KinematicBody2D
+extends CharacterBody2D
 
 var state_functions: Dictionary = {
     "idle": handle_idle_state,
