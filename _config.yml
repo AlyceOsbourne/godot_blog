@@ -8,7 +8,7 @@ plugins:
   # - jekyll-relative-links
 
 theme_mode: dark
-title: [CthuluCodesGames]
+title: [CthulhuCodesGames]
 iconURL: "cthulu.png"
 domain: my-site.github.io
 url: https://AlyceOsbourne.github.io
